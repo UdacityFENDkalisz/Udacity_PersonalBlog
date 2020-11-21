@@ -1,0 +1,12 @@
+.div4 div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid #8FC1E3 5px;
+  background-image: url(images/us.jpg);
+  background-size: cover;
+}
+
+.div4 span {
+  padding: 10px;
+}
