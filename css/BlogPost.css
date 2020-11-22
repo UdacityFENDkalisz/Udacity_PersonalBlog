@@ -262,4 +262,9 @@ h3 {
 
 /* Large Screens */
 
-@media (min-width:901px) {}
+@media (min-width:901px) {
+    .contenthead img {
+        width: 40%;
+        float: center;
+    }
+}
