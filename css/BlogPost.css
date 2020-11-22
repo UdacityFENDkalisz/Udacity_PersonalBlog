@@ -220,16 +220,13 @@ h3 {
     h4 {
         line-height: 25px;
     }
-}
-
-.div3 {
+    .div3 {
     display: none;
-}
-
-.contenthead img {
-    width: 100%;
-    float: center;
-}
+    }
+    .contenthead img {
+        width: 100%;
+        float: center;
+    }
 
 }
 
@@ -263,7 +260,7 @@ h3 {
 /* Large Screens */
 
 @media (min-width:901px) {
-    .contenthead img {
+   /* .contenthead img {
         width: 40%;
         float: center;
     }
@@ -296,5 +293,5 @@ h3 {
     
     .us span {
         padding: 10px;
-    }
+    } */
 }
