@@ -125,7 +125,7 @@ h3 {
     width: 200px;
     border-radius: 50%;
     border: solid #8FC1E3 5px;
-    background-image: url("images/us.jpg");
+    background-image: url("images/Us.jpg");
     background-size: cover;
 }
 
@@ -266,5 +266,35 @@ h3 {
     .contenthead img {
         width: 40%;
         float: center;
+    }
+
+    .div3 {
+        grid-area: 2 / 6 / 6 / 6;
+        box-sizing: border-box;
+        display: inline-block;
+        align-content: left;
+    }
+    
+    .us {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-grow: 1;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    
+    .us div {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: solid #8FC1E3 5px;
+        background-image: url("images/Us.jpg");
+        background-size: cover;
+    }
+    
+    .us span {
+        padding: 10px;
     }
 }
