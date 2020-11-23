@@ -32,7 +32,7 @@ h1 span {
     height: 720px;
     text-align: left;
     background: #8FC1E3;
-    background-image: url(images/img_4536_copy2.jpg);
+    background-image: url("images/IMG_4536_copy2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 90%;
